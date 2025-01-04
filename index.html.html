@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Crafter | IIT Madras</title>
+  <!-- Font Awesome CDN link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <form action="http://localhost:5000/contact" method="POST" class="contact-form"></form>
+
+
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Case Crafter Logo">
+      <span class="brand-name">Case Crafter</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#team">Team</a>
+      <a href="activities.html">Activities</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/casecrafter_iitm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/case-crafter/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </header>
+  
+  <!-- Welcome Section -->
+  <section id="welcome" class="section">
+    <div class="overlay">
+      <div class="content">
+        <img src="logo1.jpg" alt="Club Logo" class="logo" />
+        <h1 class="case-crafter-text">CASE CRAFTER CLUB - IIT MADRAS BS</h1>
+        <p class="sub-heading">Where Future Business Leaders Thrive</p>
+        <p class="description">
+          Crafting Future Leaders Through Real-World Case Studies, Consulting Insights, and Product Management Excellence.
+        </p>
+        <div class="buttons">
+          <!-- Update the link here to point to the new activities page -->
+          <a href="activities.html" class="btn primary">Join Us Here</a>
+        </div>
+        <div class="scroll-arrow" onclick="scrollToSection('about')">
+          <span>&#x25BC;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="about-container">
+    <h2>About Us</h2>
+    <p>
+      Welcome to the <strong>Case Crafter Club</strong> at IIT Madras BS, where the next generation of business leaders is forged. Our mission is to seamlessly bridge academia and industry, equipping aspiring minds with critical skills in <em>business case analysis</em>, <em>consulting</em>, and <em>product management</em>. We believe in learning by doing, offering unparalleled opportunities through hands-on projects, high-stakes competitions, and personalized mentorship from industry experts.
+    </p>
+    <p>
+      At Case Crafter, we cultivate a culture of innovation and collaboration, fostering a community of visionaries ready to tackle the business challenges of tomorrow. Join us in transforming ideas into impactful solutions and shaping a future where creativity meets strategy. Together, let's redefine the art of business—one case at a time.
+    </p>
+    <div class="scroll-arrow" onclick="scrollToSection('events')">
+      <span>&#x25BC;</span>
+    </div>
+  </div>
+</section>
+
+  <!-- Events Section -->
+  <section id="events" class="section-tilted-bg">
+    <!-- Tilted Background -->
+    <div class="tilted-bg"></div>
+  
+    <!-- Content -->
+    <div class="content">
+      <!-- Title for 'Our Events' -->
+      <h2 class="section-title">Our Events</h2>
+  
+      <!-- Subtitle (Optional Description) -->
+      <p class="subtitle">Discover exciting competitions, workshops, and bootcamps!</p>
+  
+      <!-- Event Logo 
+      <img src="logo.png" alt="Event Logo" class="event-logo" />-->
+  
+      <!-- Additional Info (Optional) -->
+      <p class="additional-text">Join us to learn, compete, and grow.</p>
+    <div class="event-container">
+      <div class="event-box">Case Studies Competition</div>
+      <div class="event-box">Consulting Workshops</div>
+      <div class="event-box">
+        <a href="https://courageous-cheesecake-1ba2d1.netlify.app/" target="_blank" class="bootcamp-link">
+          Product Management Bootcamp
+        </a>
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection('team')">
+      <span>&#x25BC;</span>
+    </div>
+  </section> 
+
+
+  <!-- Team Section -->
+  <section id="team" class="section">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="shubham.jpg" alt="Shubham Vithalkar">
+        <h3>Shubham Vithalkar</h3>
+        <p>President</p>
+      </div>
+      <div class="team-member">
+        <img src="anjali.jpg" alt="Anjali Panchal">
+        <h3>Anjali Panchal</h3>
+        <p>Vice President</p>
+      </div>
+      <div class="team-member">
+        <img src="Arpan.jpg" alt="Arpan">
+        <h3>Arpan</h3>
+        <p>Operational Head</p>
+      </div>
+      <div class="team-member">
+        <img src="anushka.jpg" alt="Anushka Bhujade">
+        <h3>Anushka Bhujade</h3>
+        <p>Web Admin</p>
+      </div>
+      <!-- Add more team members similarly -->
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection('faq')">
+      <span>&#x25BC;</span>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-container">
+    <h1>FAQs</h1>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>1. What is Case Crafter?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Case Crafter is a student club at IIT Madras focused on developing leadership, consulting, and business skills.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>2. How can I join?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Follow our social media pages for updates on recruitment and events.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>3. What is the mission of the club?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Our mission is to equip students with essential business skills through real-world projects, case competitions, and mentorship, fostering critical thinking and problem-solving.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>4. Who can join the club?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Any student enrolled in the IIT Madras BS program who is interested in business, consulting, and product management can join the club.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>5. What activities does the club conduct?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>The club organizes workshops, real-world consulting projects, case study competitions, and networking events with industry experts.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>6. How does the club support career growth?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Through mentorship, practical experience, and networking, the club prepares students for roles in consulting, product management, and strategic decision-making.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>7. What are case competitions?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Case competitions involve solving real or simulated business problems within a given timeframe, encouraging critical thinking and teamwork.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>8. How can I suggest ideas or initiatives for the club?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>We encourage members to share ideas and take initiatives that align with the club’s mission.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>9. Can non-members participate in club events?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>Certain events, such as workshops and open competitions, may be open to non-members. Exclusive activities are reserved for club members.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>10. How can I contact the club for more information?</p>
+          <button class="toggle-answer">+</button>
+        </div>
+        <div class="faq-answer">
+          <p>You can reach out through the official IIT Madras BS communication channels or email us at <a href="mailto:insert.contact@domain.com">insert.contact@domain.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  
+    <p class="faq-footer">
+      Join us at Case Crafter Club and be part of a transformative journey in business leadership!
+    </p>
+  </section>
+
+ <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section logo-section">
+            <img src="logo.png" alt="Club Logo" class="footer-logo">
+            <h1 class="footer-title">Case Crafter Club</h1>
+            <p class="footer-tagline"></p>
+        </div>
+
+        <div class="footer-section navigate-section">
+            <h2 class="footer-heading">NAVIGATE</h2>
+            <ul class="footer-links">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Activities</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section follow-us-section">
+            <h2 class="footer-heading">FOLLOW US</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/casecrafter_iitm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/case-crafter/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section contact-us-section">
+            <h2 class="footer-heading">CONTACT US</h2>
+            <a href="mailto:casecrafterclub@study.iitm.ac.in" class="footer-email">casecrafterclub@study.iitm.ac.in</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2023 Case Crafter Club | IITM BS. All Rights Reserved.</p>
+        <p>Made with 🤍 by <a href="#">Anushka Bhujade</a></p>
+    </div>
+</footer>
+</body>
+</html>
