@@ -1,0 +1,11 @@
+{
+  "name": "case-crafter-club",
+  "version": "1.0.0",
+  "description": "Welcome to the **Case Crafter Club**! This is the official website of the **Case Crafter Club**, IIT Madras, designed to provide a platform for business case analysis, consulting, product management, competitions, and mentorship.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
